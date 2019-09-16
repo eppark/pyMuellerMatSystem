@@ -1,5 +1,6 @@
-# This program represents a Mueller matrix system for a Dual Channel Polarimeter, which includes 3 main components:
-# a Wollaston Prism, a rotatable HWP and a rotation matrix out front that compensates for parallactic rotation
+# This program represents a Mueller matrix system for a Dual Channel Polarimeter, which includes:
+# a Wollaston Prism, a diattenuating retarder representing the derotator, a rotatable HWP, a diattenuating
+# retarder representing the third mirror, and a rotation matrix that compensates for parallactic rotation.
 # This uses the pyMuellerMat library to represent the Mueller matrices.
 #
 # Main functions:
